@@ -108,6 +108,25 @@
   margin-left: 0.5rem;
 }
 
+.topDiv{
+  display:flex;
+  justify-content:center;
+  column-gap:100px;
+  align-items:center;
+}
+
+.bookmarkDiv{
+  border:2px solid black;
+  width:400px;
+  padding:40px 20px;
+}
+
+.details{
+  border:1px solid black;
+  padding:20px;
+  margin-top:200px;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
